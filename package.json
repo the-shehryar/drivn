@@ -1,0 +1,12 @@
+{
+  "name": "drivn",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "ignoreOptionalDependencies": ["sharp", "@img/sharp-win32-x64"],
+  "trustedDependencies": ["@img/sharp-win32-x64"],
+  "scripts": {
+    "mobile": "bun run --cwd apps/mobile start",
+    "web": "bun run --cwd apps/web dev",
+    "build:web": "bun run --cwd apps/web build"
+  }
+}
