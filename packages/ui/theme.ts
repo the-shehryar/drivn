@@ -13,3 +13,10 @@ export const SPACING = {
   combinedInset: 36,
   elementGap: 12,
 } as const;
+
+export const TYPOGRAPHY = {
+  heading: 18,
+  subheading: 14,
+  body: 12,
+  caption: 10,
+} as const;

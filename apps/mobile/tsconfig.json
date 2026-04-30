@@ -1,6 +1,7 @@
 {
-  "extends": "expo/tsconfig.base",
+  "extends": "@drivn/config/tsconfig.base.json",
   "compilerOptions": {
-    "strict": true
-  }
+    "jsx": "react-native"
+  },
+  "include": ["**/*.ts", "**/*.tsx", "declarations.d.ts"]
 }

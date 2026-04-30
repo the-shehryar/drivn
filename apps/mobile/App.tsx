@@ -1,10 +1,10 @@
-import { BRAND } from "@drivn/ui";
+import "./global.css";  
+import { COLORS } from "@drivn/ui";
 import { Text, View, StyleSheet } from "react-native";
-
 export default function App() {
   return (
     <View>
-      <Text style={{ color: BRAND.accentColor }}>{BRAND.name}</Text>
+      <Text style={{ color: COLORS.primary }}>{COLORS.primary}</Text>
     </View>
   );
 }
